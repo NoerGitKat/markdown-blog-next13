@@ -1,5 +1,9 @@
-const Homepage = () => {
-  return <main>Homepage</main>;
-};
+import Posts from "../components/Posts";
 
-export default Homepage;
+export default function Homepage() {
+  return (
+    <main>
+      <Posts />
+    </main>
+  );
+}
